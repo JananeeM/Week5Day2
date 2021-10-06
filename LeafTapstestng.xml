@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="LeafTapsTestCase_TESTNG.DeleteLead_DP"/>
+      <class name="LeafTapsTestCase_TESTNG.DuplicateLead_DP"/>
+      <class name="LeafTapsTestCase_TESTNG.MergeLead_DP"/>
+      <class name="LeafTapsTestCase_TESTNG.EditLead_DP"/>
+      <class name="LeafTapsTestCase_TESTNG.CreateLead_DP"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
